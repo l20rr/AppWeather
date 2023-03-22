@@ -5,6 +5,62 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: cadetblue;
+}
+
+
+.top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  border: none;
+  height: 20px;
+  width: 200px;
+  border-bottom: 1px solid black;
+}
+
+button{
+  margin: 5px;
+  border: none;
+  background-color: cadetblue;
+  border-radius: 5px;
+  height: 25px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input:focus, input:focus, select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+} 
+
+.app{
+  height: 500px;
+  width: 500px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+
+.container{
+  height: 300px;
+  width: 400px;
+  background-color: cadetblue;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 code {
